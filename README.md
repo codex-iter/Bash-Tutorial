@@ -1,6 +1,10 @@
 # Bash-Tutorial
 A cheat sheet for bash
 
+
+## Simple traversal 
+
+
 `pwd` : prints working directory
 
 `ls` : lists contents of current directory
@@ -62,3 +66,102 @@ A cheat sheet for bash
 
 `echo text >> newfile` : creates `newfile` with text
 
+
+## Process Management
+
+`ps` : Display your currently active processes
+
+`top` : display all running processes
+
+`htop` : more interactive and colorful version of `top`
+
+`kill pid` : kill process with id `pid`
+
+`killall proc` : kill all processes named `proc*`
+
+
+## System info
+
+`date` : show the current date and time
+
+`cal` : show this month's calendar
+
+`uptime` : show current uptime
+
+`uname -a` : show all kernel information
+
+`cat /proc/cpuinfo` : show cpu information
+
+`cat /proc/meminfo` : show memory information
+
+`df` : show disk usage
+
+`du` : show directory space usage
+
+`free` : show memory and swap usage
+
+`whereis app` : show possible location of app
+
+`which app` : show which app will be run by default
+
+
+## Help
+
+`man command` : shows manual for `command`
+
+`command --help` or `command -h` : (almost always) shows short help about the command
+
+
+## Network
+
+`ping host` : ping host and output results
+
+`whois domain` : get whois information for domain
+
+`dig domain` : get DNS information for domain
+
+`dig -x host` : reverse lookup host
+
+`wget file` : download file
+
+`wget -c file` : continue a stopped download
+
+
+## Installation
+
+### Install from repository
+
+#### Ubuntu/Debian based systems
+
+`sudo apt-get update` : updates repository list
+
+`sudo apt-get upgrade` : installs possible updates
+
+`sudo apt-get install package` : installs package
+
+`aptitude search package` : searches for the package
+
+#### Fedora
+
+`yum update` : updates repository list
+
+`yum search package` : searches for package
+
+`sudo yum install package` : installs package
+
+
+## Install from file
+
+`sudo dpkg -i package.deb` : install package from deb file (Debian)
+
+`sudo rpm -Uvh package.rm` : install package from rpm file (Fedora)
+
+## Install from source
+
+`./configure`
+
+`make`
+
+`make install` 
+
+May require `sudo`. Read the README for the source before proceeding.
