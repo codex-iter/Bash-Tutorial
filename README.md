@@ -150,13 +150,13 @@ A cheat sheet for bash
 `sudo yum install package` : installs package
 
 
-## Install from file
+### Install from file
 
 `sudo dpkg -i package.deb` : install package from deb file (Debian)
 
 `sudo rpm -Uvh package.rm` : install package from rpm file (Fedora)
 
-## Install from source
+### Install from source
 
 `./configure`
 
