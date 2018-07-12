@@ -165,3 +165,8 @@ A cheat sheet for bash
 `make install` 
 
 May require `sudo`. Read the README for the source before proceeding.
+
+
+## Resources
+
+[Awesome bash](https://github.com/awesome-lists/awesome-bash)
