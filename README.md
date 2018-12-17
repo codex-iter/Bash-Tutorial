@@ -141,13 +141,13 @@ A cheat sheet for bash
 
 #### Ubuntu/Debian based systems
 
-`sudo apt-get update` : updates repository list
+`sudo apt-get update` or `sudo apt update`: updates repository list
 
-`sudo apt-get upgrade` : installs possible updates
+`sudo apt-get upgrade` or `sudo apt upgrade` : installs possible updates
 
-`sudo apt-get install package` : installs package
+`sudo apt-get install package` or `sudo apt install package` : installs package
 
-`aptitude search package` : searches for the package
+`apt search package` or `aptitude search package` : searches for the package
 
 #### Fedora
 
@@ -178,3 +178,5 @@ May require `sudo`. Read the README for the source before proceeding.
 ## Resources
 
 [Awesome bash](https://github.com/awesome-lists/awesome-bash)
+
+[Linux Journey](https://linuxjourney.com/)
