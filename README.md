@@ -61,10 +61,18 @@ A cheat sheet for bash
 
 `nano newfile` : opens newfile for editing
 
-
 `echo text` : prints text on the screen
 
-`echo text >> newfile` : creates `newfile` with text
+
+## Output Redirection
+
+`cmd > file` : redirects stdout to file
+
+`echo "text" >> file` : appends "text" to file
+
+`cmd 2> file` : redirects stderr to file
+
+`cmd 2>&1 file` : redirects stderr and stdout to both terminal and file
 
 
 ## Process Management
